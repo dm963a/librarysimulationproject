@@ -13,28 +13,16 @@ javac LibrarySimulationProject.java
 
 java LibrarySimulationProject
 
-****Usage: Follow the prompts in the console to navigate through the menu options and interact with the library system.
-**
-How to Compile and Run
-Compilation: To compile the program, navigate to the directory containing the .java files and run the following command:
-
-bash
-Copy code
-javac LibrarySimulationProject.java
-Execution: After successful compilation, run the program using the following command:
-
-bash
-Copy code
-java LibrarySimulationProject
 Usage: Follow the prompts in the console to navigate through the menu options and interact with the library system.
 
 **Additional Considerations**
 Ensure you have Java Development Kit (JDK) installed on your system to compile and run the program.
 This program uses standard input/output for user interaction, so make sure your terminal supports it.
-Sample Data
+
+**Sample Data**
 Below is the sample data used for testing the library management system:
 
-Sample Customers
+**Sample Customers**
 Customer 1:
 
 First Name: John
@@ -43,6 +31,7 @@ Phone Number: 3094563345
 Email: johndoe@example.com
 Address: 1000 Main St.
 State: IL
+
 Customer 2:
 
 First Name: Alice
@@ -51,7 +40,8 @@ Phone Number: 2177891234
 Email: alice.smith@example.com
 Address: 200 Maple Ave.
 State: NY
-Sample Books
+
+**Sample Books**
 Book 1:
 
 Title: Introduction to Java Programming
@@ -59,6 +49,7 @@ Author: John Smith
 ISBN: 1234567890
 Publisher: ABC Publications
 Quantity: 5
+
 Book 2:
 
 Title: Data Structures and Algorithms
@@ -66,44 +57,10 @@ Author: Alice Johnson
 ISBN: 0987654321
 Publisher: XYZ Books
 Quantity: 3
-Screenshots
+
+**Screenshots**
 Ensure you have Java Development Kit (JDK) installed on your system to compile and run the program.
 This program uses standard input/output for user interaction, so make sure your terminal supports it.
-Sample Data
-Below is the sample data used for testing the library management system:
-
-Sample Customers
-Customer 1:
-
-First Name: John
-Last Name: Doe
-Phone Number: 3094563345
-Email: johndoe@example.com
-Address: 1000 Main St.
-State: IL
-Customer 2:
-
-First Name: Alice
-Last Name: Smith
-Phone Number: 2177891234
-Email: alice.smith@example.com
-Address: 200 Maple Ave.
-State: NY
-Sample Books
-Book 1:
-
-Title: Introduction to Java Programming
-Author: John Smith
-ISBN: 1234567890
-Publisher: ABC Publications
-Quantity: 5
-Book 2:
-
-Title: Data Structures and Algorithms
-Author: Alice Johnson
-ISBN: 0987654321
-Publisher: XYZ Books
-Quantity: 3
 
 
 import java.util.ArrayList;
