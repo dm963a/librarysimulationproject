@@ -2,22 +2,43 @@
 
 ## Introduction
 This is a simple Java program for managing a library. It allows users to register new customers, add new books, display customer and book information, borrow books, and return books.
-package librarysimulationproject;
 
-### How to Compile and Run
-**Compilation:** To compile the program, navigate to the directory containing the .java files and run the following command:
+## Code Structure and Documentation
+The program consists of the following classes:
 
-***javac LibrarySimulationProject.java***
+**LibrarySimulationProject:** Main class responsible for running the library simulation. It contains the main method that displays the menu and handles user input.
 
-**Execution:** After successful compilation, run the program using the following command:
+**Validation:** Class responsible for handling input validation. It contains methods to validate customer name, ISBN, phone number, and email. It also includes methods to check if a customer or book exists in the system.
 
-***java LibrarySimulationProject***
+**Library:** Class representing the library and its operations. It contains methods to add new customers and books, display customers and books, borrow books, and return books.
 
-**Usage:** Follow the prompts in the console to navigate through the menu options and interact with the library system.
+**Book:** Class representing a book in the library. It contains fields for title, author, ISBN, publisher, and quantity. It includes getter and setter methods for each field and overrides the toString method for a string representation of the Book object.
 
-## Additional Considerations
-Ensure you have Java Development Kit (JDK) installed on your system to compile and run the program.
-This program uses standard input/output for user interaction, so make sure your terminal supports it.
+**Customer:** Class representing a customer of the library. It contains fields for first name, last name, phone number, email, address, state, customer ID, and a list of books borrowed. It includes methods to borrow and return books, generate a unique customer ID, and overrides the toString method for a string representation of the Customer object.
+
+Each class, method, and major code block is extensively documented to explain its functionality and purpose.
+
+### How to Compile the Program
+Open NetBeans IDE.
+
+Create a new Java project or open an existing one.
+
+Add the Java files (LibrarySimulationProject.java, Book.java, Customer.java, Validation.java) to your project.
+
+Ensure that all the files are included in the source package.
+
+Right-click on your project in the project explorer.
+
+Select "Build" or "Clean and Build" to compile the program. This will compile all the Java files in your project.
+
+### Running the Program
+After compiling, right-click on the project in the project explorer.
+
+Select "Run" or press Shift + F6 to run the program.
+
+The program will start executing, and you will see the output in the NetBeans output console.
+
+Follow the on-screen instructions to navigate through the menu and perform actions.
 
 ## Sample Data
 Below is the sample data used for testing the library management system:
@@ -26,41 +47,68 @@ Below is the sample data used for testing the library management system:
 **Customer 1:**
 
 First Name: John
+
 Last Name: Doe
+
 Phone Number: 3094563345
+
 Email: johndoe@example.com
+
 Address: 1000 Main St.
+
 State: IL
+
+**Output Screenshot:**
+
+![image](https://github.com/dm963a/librarysimulationproject/assets/159193565/3e5b6a0c-9723-4386-9d67-a7145288a1c5)
+
 
 **Customer 2:**
 
 First Name: Alice
+
 Last Name: Smith
+
 Phone Number: 2177891234
-Email: alice.smith@example.com
+
+Email: asmith@example.com
+
 Address: 200 Maple Ave.
+
 State: NY
+
+**Output Screenshot:**
+
+![image](https://github.com/dm963a/librarysimulationproject/assets/159193565/0fd179fe-5de7-441b-bcb6-666a9d63f9d5)
+
 
 ### Sample Books
 **Book 1:**
 
 Title: Introduction to Java Programming
+
 Author: John Smith
+
 ISBN: 1234567890
+
 Publisher: ABC Publications
+
 Quantity: 5
 
 **Book 2:**
 
 Title: Data Structures and Algorithms
+
 Author: Alice Johnson
+
 ISBN: 0987654321
+
 Publisher: XYZ Books
+
 Quantity: 3
 
-## Screenshots
-Ensure you have Java Development Kit (JDK) installed on your system to compile and run the program.
-This program uses standard input/output for user interaction, so make sure your terminal supports it.
+## Code
+
 
 ```
 import java.util.ArrayList;
