@@ -79,7 +79,11 @@ State: NY
 
 **Output Screenshot:**
 
-![image](https://github.com/dm963a/librarysimulationproject/assets/159193565/0fd179fe-5de7-441b-bcb6-666a9d63f9d5)
+![image](https://github.com/dm963a/librarysimulationproject/assets/159193565/481a4dd4-99e0-4f3a-8263-e43f3b1f7cb2)
+
+**Display Customers:**
+
+![image](https://github.com/dm963a/librarysimulationproject/assets/159193565/998c6046-02b4-4a52-b2ce-eae154c034ab)
 
 
 ### Sample Books
@@ -89,11 +93,16 @@ Title: Introduction to Java Programming
 
 Author: John Smith
 
-ISBN: 1234567890
+ISBN: 1234123312
 
 Publisher: ABC Publications
 
 Quantity: 5
+
+**Output Screenshot:**
+
+![image](https://github.com/dm963a/librarysimulationproject/assets/159193565/38e1dc4a-a9e2-4c2c-aae3-a69ed29bc621)
+
 
 **Book 2:**
 
@@ -101,11 +110,30 @@ Title: Data Structures and Algorithms
 
 Author: Alice Johnson
 
-ISBN: 0987654321
+ISBN: 1111111111
 
 Publisher: XYZ Books
 
 Quantity: 3
+
+**Output Screenshot:**
+
+![image](https://github.com/dm963a/librarysimulationproject/assets/159193565/4c3adad1-7cb4-4ee4-91ef-cf47a3663547)
+
+**Display Books:**
+
+![image](https://github.com/dm963a/librarysimulationproject/assets/159193565/13e0c1f4-9854-4bb6-95fb-6d170415c993)
+
+**Borrow Book:**
+
+![image](https://github.com/dm963a/librarysimulationproject/assets/159193565/51f26fac-6489-401a-8c32-5a53df01b161)
+
+
+**Return Book:**
+
+![image](https://github.com/dm963a/librarysimulationproject/assets/159193565/d5e1e452-c2d1-46cd-af8e-e8ca9f36a39c)
+
+
 
 ## Code
 
